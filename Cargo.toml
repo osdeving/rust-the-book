@@ -9,3 +9,5 @@ panic = 'abort' # abort without unwind the stack in release mode
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "*"
+crossterm = "*"
